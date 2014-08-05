@@ -20,7 +20,7 @@ class Cart {
         public function checkout($amount) {
 
         	// A random slow call...
-			if ($amount % 5 == 0)
+			if ($amount % 10 == 0)
 				sleep(12);
 
         	return $amount;
