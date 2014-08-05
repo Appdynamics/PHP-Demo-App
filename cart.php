@@ -7,9 +7,6 @@
 */
 class Cart {
 
-	function __construct() {
-		$this->amount = rand(1,50);
-	}
 
 		/**
 		*

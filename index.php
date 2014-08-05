@@ -4,7 +4,9 @@ require('cart.php');
 
 $Cart = new Cart();
 
-echo $Cart->checkout($random);
+$amount = rand(1,50);
+
+echo $Cart->checkout($amount);
 
 
 	
