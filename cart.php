@@ -18,7 +18,7 @@ class Cart {
 
         	// A random slow call...
 			if ($amount % 10 == 0)
-				sleep(12);
+				sleep(5);
 
         	return $amount;
         }
